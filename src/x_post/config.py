@@ -59,6 +59,18 @@ def _int(name: str, default: int) -> int:
         return default
 
 
+def _str(name: str, default: str = "") -> str:
+    """Return env var, treating empty/whitespace as unset.
+
+    GitHub Actions passes unset `${{ vars.X }}` as an empty string, which would
+    otherwise override a sensible default. Falling back on blank avoids that.
+    """
+    val = os.environ.get(name)
+    if val is None or not val.strip():
+        return default
+    return val.strip()
+
+
 @dataclass(frozen=True)
 class Settings:
     # X API (OAuth 1.0a)
@@ -69,7 +81,7 @@ class Settings:
 
     # Gemini
     gemini_api_key: str = os.environ.get("GEMINI_API_KEY", "")
-    gemini_model: str = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+    gemini_model: str = _str("GEMINI_MODEL", "gemini-2.5-flash")
 
     # GitHub
     github_token: str = os.environ.get("GITHUB_TOKEN", "")
@@ -86,9 +98,9 @@ class Settings:
     max_articles: int = _int("MAX_ARTICLES", 40)
 
     # Issue labels
-    label_pending: str = os.environ.get("LABEL_PENDING", "pending-approval")
-    label_approved: str = os.environ.get("LABEL_APPROVED", "approved")
-    label_posted: str = os.environ.get("LABEL_POSTED", "posted")
+    label_pending: str = _str("LABEL_PENDING", "pending-approval")
+    label_approved: str = _str("LABEL_APPROVED", "approved")
+    label_posted: str = _str("LABEL_POSTED", "posted")
 
     def require_x(self) -> None:
         missing = [
