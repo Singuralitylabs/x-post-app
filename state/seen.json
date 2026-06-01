@@ -1,4 +1,15 @@
 {
-  "seen": [],
+  "seen": [
+    {
+      "hash": "aa745decade4a5ca",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "ts": "2026-06-01T10:45:49.737966+00:00"
+    },
+    {
+      "hash": "4963d35dbd16a0a9",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+      "ts": "2026-06-01T10:45:49.737966+00:00"
+    }
+  ],
   "posted": []
 }
