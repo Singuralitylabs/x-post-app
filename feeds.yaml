@@ -1,0 +1,34 @@
+# 収集対象の RSS フィード定義。
+# category はプロンプトのヒント / 軽いフィルタに使用。
+# 不要なフィードはコメントアウト、追加は url と name を足すだけ。
+
+feeds:
+  # --- AI ---
+  - name: "Google AI Blog"
+    url: "https://blog.google/technology/ai/rss/"
+    category: ai
+  - name: "Hugging Face Blog"
+    url: "https://huggingface.co/blog/feed.xml"
+    category: ai
+  - name: "OpenAI News"
+    url: "https://openai.com/news/rss.xml"
+    category: ai
+
+  # --- Web 技術 / 開発者向け ---
+  - name: "Publickey"
+    url: "https://www.publickey1.jp/atom.xml"
+    category: web
+  - name: "Zenn Trending"
+    url: "https://zenn.dev/feed"
+    category: web
+  - name: "dev.to Top"
+    url: "https://dev.to/feed"
+    category: web
+
+  # --- 海外テックメディア ---
+  - name: "The Verge"
+    url: "https://www.theverge.com/rss/index.xml"
+    category: tech
+
+# Hacker News / GitHub Trending はコード側で取得（API/スクレイプ）。
+# 取得件数や対象言語は config.py / 環境変数で制御。

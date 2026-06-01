@@ -1,0 +1,52 @@
+name: Generate post candidates
+
+on:
+  workflow_dispatch:
+  # MVP 検証後に有効化（JST 9:00 / 13:00 / 19:00 ≒ UTC 0/4/10）
+  # schedule:
+  #   - cron: "0 0,4,10 * * *"
+
+permissions:
+  contents: write   # state/seen.json をコミットするため
+  issues: write     # 承認用 Issue を作成するため
+
+concurrency:
+  group: x-post-generate
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install
+        run: pip install -e .
+
+      - name: Run generate
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          CANDIDATE_COUNT: ${{ vars.CANDIDATE_COUNT || '3' }}
+          INCLUDE_URL: ${{ vars.INCLUDE_URL || 'false' }}
+        run: python scripts/run_generate.py
+
+      - name: Commit state
+        run: |
+          if [[ -n "$(git status --porcelain state/seen.json)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git pull --rebase --autostash || true
+            git add state/seen.json
+            git commit -m "chore: update seen state [skip ci]"
+            git push
+          else
+            echo "no state changes"
+          fi
