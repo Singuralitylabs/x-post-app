@@ -64,6 +64,11 @@
       "hash": "8f76e67ad854a6c0",
       "url": "https://huggingface.co/blog/allenai/olmo-eval",
       "ts": "2026-06-13T00:50:03.811413+00:00"
+    },
+    {
+      "hash": "e51fa07b720fb1d3",
+      "url": "https://huggingface.co/blog/torch-mlp-fusion",
+      "ts": "2026-06-14T00:49:43.234991+00:00"
     }
   ],
   "posted": [
