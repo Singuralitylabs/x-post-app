@@ -99,6 +99,11 @@
       "hash": "2eb5bcc3ad88b97e",
       "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
       "ts": "2026-06-20T00:45:57.294437+00:00"
+    },
+    {
+      "hash": "26cac67090219df5",
+      "url": "https://huggingface.co/blog/peft-beyond-lora",
+      "ts": "2026-06-21T00:50:35.123016+00:00"
     }
   ],
   "posted": [
