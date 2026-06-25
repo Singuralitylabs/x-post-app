@@ -119,6 +119,11 @@
       "hash": "0b690c5df303dfe7",
       "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
       "ts": "2026-06-24T00:40:21.147883+00:00"
+    },
+    {
+      "hash": "ad312ce435987076",
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "ts": "2026-06-25T00:45:24.534549+00:00"
     }
   ],
   "posted": [
