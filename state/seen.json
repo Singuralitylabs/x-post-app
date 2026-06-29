@@ -139,6 +139,11 @@
       "hash": "6a95b493803eeb37",
       "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
       "ts": "2026-06-28T00:45:17.669304+00:00"
+    },
+    {
+      "hash": "bb6dca4045d63cf1",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "ts": "2026-06-29T00:46:39.211663+00:00"
     }
   ],
   "posted": [
