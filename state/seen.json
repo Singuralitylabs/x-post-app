@@ -194,6 +194,11 @@
       "hash": "c191c2da58c86f2d",
       "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
       "ts": "2026-07-09T00:35:56.615519+00:00"
+    },
+    {
+      "hash": "3ce97f6a8c6c0f29",
+      "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "ts": "2026-07-10T00:37:39.390471+00:00"
     }
   ],
   "posted": [
