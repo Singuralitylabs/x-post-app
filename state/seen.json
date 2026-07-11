@@ -199,6 +199,11 @@
       "hash": "3ce97f6a8c6c0f29",
       "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
       "ts": "2026-07-10T00:37:39.390471+00:00"
+    },
+    {
+      "hash": "9dd06ff2acc7e68a",
+      "url": "https://huggingface.co/blog/torch-attention-profile",
+      "ts": "2026-07-11T00:31:00.924079+00:00"
     }
   ],
   "posted": [
