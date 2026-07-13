@@ -209,6 +209,11 @@
       "hash": "77d64de25479fa60",
       "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
       "ts": "2026-07-12T00:33:14.713589+00:00"
+    },
+    {
+      "hash": "1ec294ada9f40d0a",
+      "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "ts": "2026-07-13T00:33:01.230150+00:00"
     }
   ],
   "posted": [
