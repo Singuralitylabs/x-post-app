@@ -239,6 +239,11 @@
       "hash": "0560403cacf5a7a1",
       "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
       "ts": "2026-07-18T00:29:11.648413+00:00"
+    },
+    {
+      "hash": "d9b2b6a45e1f9f2c",
+      "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+      "ts": "2026-07-19T00:31:55.320562+00:00"
     }
   ],
   "posted": [
