@@ -314,6 +314,11 @@
       "hash": "9c980868c23ca002",
       "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
       "ts": "2026-08-02T00:34:07.689769+00:00"
+    },
+    {
+      "hash": "a5bc54280bf29efc",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+      "ts": "2026-08-03T00:33:48.807939+00:00"
     }
   ],
   "posted": [
