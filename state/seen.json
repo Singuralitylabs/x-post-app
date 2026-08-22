@@ -409,6 +409,11 @@
       "hash": "eab5285cfdebeb65",
       "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
       "ts": "2026-08-21T00:12:51.609878+00:00"
+    },
+    {
+      "hash": "e3ddd7a65cd3a566",
+      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "ts": "2026-08-22T00:12:21.912111+00:00"
     }
   ],
   "posted": [
