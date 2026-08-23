@@ -414,6 +414,11 @@
       "hash": "e3ddd7a65cd3a566",
       "url": "https://huggingface.co/blog/asr-benchmark-optimization",
       "ts": "2026-08-22T00:12:21.912111+00:00"
+    },
+    {
+      "hash": "d9524ab76177d5be",
+      "url": "https://huggingface.co/blog/multi-vector-encoder",
+      "ts": "2026-08-23T00:11:46.437693+00:00"
     }
   ],
   "posted": [
