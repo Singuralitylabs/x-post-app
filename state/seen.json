@@ -419,6 +419,11 @@
       "hash": "d9524ab76177d5be",
       "url": "https://huggingface.co/blog/multi-vector-encoder",
       "ts": "2026-08-23T00:11:46.437693+00:00"
+    },
+    {
+      "hash": "bf50ec5ce617ac83",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "ts": "2026-08-24T00:12:08.513134+00:00"
     }
   ],
   "posted": [
