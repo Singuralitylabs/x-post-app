@@ -454,6 +454,11 @@
       "hash": "d21068479952e403",
       "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
       "ts": "2026-08-30T00:26:38.475218+00:00"
+    },
+    {
+      "hash": "f1c76f23a788b688",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "ts": "2026-08-31T00:27:10.809376+00:00"
     }
   ],
   "posted": [
