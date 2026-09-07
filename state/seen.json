@@ -489,6 +489,11 @@
       "hash": "a139f80b159295ad",
       "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
       "ts": "2026-09-06T00:27:01.055689+00:00"
+    },
+    {
+      "hash": "cdd1118267ee925c",
+      "url": "https://huggingface.co/blog/funes",
+      "ts": "2026-09-07T00:26:25.583524+00:00"
     }
   ],
   "posted": [
