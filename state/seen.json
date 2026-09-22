@@ -564,6 +564,11 @@
       "hash": "a1d018f16fad79f9",
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
       "ts": "2026-09-21T00:27:23.194848+00:00"
+    },
+    {
+      "hash": "ae2a66f3c360fd17",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "ts": "2026-09-22T00:24:14.398711+00:00"
     }
   ],
   "posted": [
