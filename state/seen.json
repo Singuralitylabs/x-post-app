@@ -569,6 +569,11 @@
       "hash": "ae2a66f3c360fd17",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
       "ts": "2026-09-22T00:24:14.398711+00:00"
+    },
+    {
+      "hash": "e9f63aa1f7aaa02f",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "ts": "2026-09-23T00:23:24.924909+00:00"
     }
   ],
   "posted": [
