@@ -594,6 +594,11 @@
       "hash": "689d78c6e007ab8e",
       "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
       "ts": "2026-09-27T00:28:07.027159+00:00"
+    },
+    {
+      "hash": "6b3083011aeb49b1",
+      "url": "https://huggingface.co/blog/omlx",
+      "ts": "2026-09-28T00:27:58.777415+00:00"
     }
   ],
   "posted": [
