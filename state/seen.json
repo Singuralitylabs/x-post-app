@@ -694,6 +694,11 @@
       "hash": "138e9b7e7d974724",
       "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
       "ts": "2026-10-17T00:22:23.743987+00:00"
+    },
+    {
+      "hash": "c9a6184923cc1a58",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "ts": "2026-10-18T00:25:11.806881+00:00"
     }
   ],
   "posted": [
