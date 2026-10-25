@@ -729,6 +729,11 @@
       "hash": "5d794c3788a3a4be",
       "url": "https://huggingface.co/blog/allenai/litpivot",
       "ts": "2026-10-24T00:22:26.089886+00:00"
+    },
+    {
+      "hash": "2b3f616d26d343fe",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "ts": "2026-10-25T00:24:42.920085+00:00"
     }
   ],
   "posted": [
