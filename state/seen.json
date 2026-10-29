@@ -749,6 +749,11 @@
       "hash": "1c5b51464767c2ad",
       "url": "https://huggingface.co/blog/LiquidAI/lfm3",
       "ts": "2026-10-28T00:18:05.186603+00:00"
+    },
+    {
+      "hash": "ec733f799e1aaee3",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "ts": "2026-10-29T00:17:56.220671+00:00"
     }
   ],
   "posted": [
